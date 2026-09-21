@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Musk (FRS) | Tech Entrepreneur, CEO & Product Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        space: {
+                            900: '#0B0F19',
+                            800: '#111827',
+                            700: '#1F2937',
+                            border: '#1E293B',
+                            accent: '#38BDF8',
+                            purple: '#818CF8',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #060911;
+            color: #E2E8F0;
+            font-family: 'Inter', sans-serif;
+        }
+        .glow-accent {
+            background: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.15), rgba(129, 140, 248, 0.05) 50%, transparent 80%);
+        }
+        .glass-card {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-card:hover {
+            border-color: rgba(56, 189, 248, 0.3);
+            box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.15);
+        }
+        .glass-nav {
+            background: rgba(6, 9, 17, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #FFFFFF 0%, #38BDF8 50%, #818CF8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gradient-border {
+            position: relative;
+        }
+        .gradient-border::before {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            background: linear-gradient(135deg, rgba(56, 189, 248, 0.4), rgba(129, 140, 248, 0.1));
+            border-radius: inherit;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-sky-500 selection:text-white">
+
+    <header class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-400 to-indigo-600 flex items-center justify-center font-bold text-white shadow-lg shadow-sky-500/20 group-hover:scale-105 transition-transform duration-300">
+                    EM
+                </div>
+                <div>
+                    <span class="text-lg font-bold tracking-tight text-white block">Elon Musk <span class="text-xs font-mono px-1.5 py-0.5 rounded bg-sky-950 text-sky-400 border border-sky-800/50 ml-1">FRS</span></span>
+                    <span class="text-xs text-slate-400 block -mt-1 font-mono">Executive & Chief Engineer</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-sky-400 transition-colors duration-200">About</a>
+                <a href="#experience" class="hover:text-sky-400 transition-colors duration-200">Experience</a>
+                <a href="#skills" class="hover:text-sky-400 transition-colors duration-200">Skills</a>
+                <a href="#projects" class="hover:text-sky-400 transition-colors duration-200">Innovations</a>
+                <a href="#education" class="hover:text-sky-400 transition-colors duration-200">Recognition</a>
+                <a href="#contact" class="px-4 py-2 rounded-lg bg-sky-500/10 text-sky-400 border border-sky-500/30 hover:bg-sky-500/20 hover:border-sky-500/50 transition-all duration-200">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative min-h-screen pt-32 pb-20 flex items-center justify-center glow-accent overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900/80 border border-slate-700 text-xs font-mono text-sky-400 mb-6">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    Architecting the Future of Humanity
+                </div>
+                <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                    Engineering <br><span class="gradient-text">Multi-Planetary & Clean Energy</span> Solutions
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8">
+                    Visionary tech executive, engineer, and entrepreneur with a proven track record of co-founding, scaling, and leading global enterprises from ground zero to multi-billion and trillion-dollar valuations. Focused on electric vehicles, space exploration, generative AI, and brain-computer interfaces.
+                </p>
+                <div class="flex flex-wrap gap-4 mb-16">
+                    <a href="#projects" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-semibold shadow-lg shadow-sky-500/25 hover:shadow-sky-500/40 hover:scale-[1.02] transition-all duration-200">
+                        View Major Innovations
+                    </a>
+                    <a href="#contact" class="px-6 py-3.5 rounded-xl glass-card text-slate-200 font-semibold hover:text-white hover:bg-slate-800/80 transition-all duration-200 border border-slate-700">
+                        Executive Channels
+                    </a>
+                </div>
+            </div>
+
+            <!-- Focus Pillars Matrix -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-8 border-t border-slate-800">
+                <div class="glass-card p-5 rounded-xl">
+                    <div class="text-xs font-mono text-slate-400 mb-1">AUTOMOTIVE & ENERGY</div>
+                    <div class="text-xl font-bold text-white">Tesla, Inc.</div>
+                    <p class="text-xs text-slate-400 mt-1">EV Acceleration & Clean Power Grid</p>
+                </div>
+                <div class="glass-card p-5 rounded-xl">
+                    <div class="text-xs font-mono text-slate-400 mb-1">AEROSPACE & INTERNET</div>
+                    <div class="text-xl font-bold text-white">SpaceX</div>
+                    <p class="text-xs text-slate-400 mt-1">Reusable Launchers & Starlink</p>
+                </div>
+                <div class="glass-card p-5 rounded-xl">
+                    <div class="text-xs font-mono text-slate-400 mb-1">ARTIFICIAL INTELLIGENCE</div>
+                    <div class="text-xl font-bold text-white">xAI</div>
+                    <p class="text-xs text-slate-400 mt-1">Frontier Models & Grok LLMs</p>
+                </div>
+                <div class="glass-card p-5 rounded-xl">
+                    <div class="text-xs font-mono text-slate-400 mb-1">NEUROTECHNOLOGY</div>
+                    <div class="text-xl font-bold text-white">Neuralink</div>
+                    <p class="text-xs text-slate-400 mt-1">High-Bandwidth BCI Technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 border-t border-slate-800/60 bg-space-900/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5">
+                    <div class="relative">
+                        <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-sky-500 to-indigo-600 opacity-30 blur-lg"></div>
+                        <div class="relative glass-card rounded-2xl p-8 border border-slate-700/60">
+                            <h3 class="text-2xl font-bold text-white mb-4">Core Leadership Principles</h3>
+                            <ul class="space-y-4 text-sm text-slate-300">
+                                <li class="flex items-start gap-3">
+                                    <span class="p-1 rounded bg-sky-500/10 text-sky-400 font-mono text-xs">01</span>
+                                    <span><strong>First Principles Thinking:</strong> Deconstruct complex problems to basic physics truths rather than reasoning by analogy.</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="p-1 rounded bg-sky-500/10 text-sky-400 font-mono text-xs">02</span>
+                                    <span><strong>Vertical Integration:</strong> Build, engineer, and optimize critical hardware and software subsystems in-house.</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="p-1 rounded bg-sky-500/10 text-sky-400 font-mono text-xs">03</span>
+                                    <span><strong>Extreme Execution Velocity:</strong> Rapid design-test-learn iterations to achieve breakthrough technological scale.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <h2 class="text-xs font-mono text-sky-400 uppercase tracking-widest mb-2">Executive Summary</h2>
+                    <h3 class="text-3xl sm:text-4xl font-bold text-white mb-6">Solving Fundamental Planetary & Civilization Challenges</h3>
+                    <div class="space-y-4 text-slate-300 leading-relaxed text-base">
+                        <p>
+                            Throughout my career, I have dedicated engineering, capital, and organizational architecture toward addressing civilization-level threats and expansion opportunities. From accelerating the world's transition to sustainable energy with electric vehicles and solar ecosystems, to making life multi-planetary by developing fully reusable orbital rockets.
+                        </p>
+                        <p>
+                            My operational focus spans hands-on product architecture, deep hardware and software design, global supply chain manufacturing, and leading high-performance engineering teams. By combining breakthroughs in robotics, neural interfaces, generative AI, and underground tunneling, I aim to create integrated technological ecosystems that push human capabilities forward.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-24 border-t border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mb-16">
+                <h2 class="text-xs font-mono text-sky-400 uppercase tracking-widest mb-2">Career Journey</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold text-white">Executive & Engineering Roles</h3>
+            </div>
+
+            <div class="space-y-8">
+                <!-- Role 1: Tesla -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 relative">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4 border-b border-slate-800 pb-4">
+                        <div>
+                            <h4 class="text-2xl font-bold text-white">CEO & Product Architect</h4>
+                            <div class="text-sky-400 font-medium">Tesla, Inc.</div>
+                        </div>
+                        <div class="font-mono text-xs text-slate-400 bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800 w-fit">
+                            2008 – Present (Investor/Chairman since 2004)
+                        </div>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm leading-relaxed">
+                        <li>Architected and scaled full-electric vehicle lineups (Roadster, Model S, Model 3, Model X, Model Y, Cybertruck).</li>
+                        <li>Pioneered global Gigafactory manufacturing infrastructure across North America, Europe, and Asia.</li>
+                        <li>Spearheaded Tesla Energy clean ecosystem integration, including SolarCity, Megapack grid storage, and Powerwall.</li>
+                        <li>Engineered full self-driving (FSD) computer hardware architectures and neural network training clusters.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 2: SpaceX -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 relative">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4 border-b border-slate-800 pb-4">
+                        <div>
+                            <h4 class="text-2xl font-bold text-white">Founder, CEO & Chief Engineer</h4>
+                            <div class="text-sky-400 font-medium">SpaceX</div>
+                        </div>
+                        <div class="font-mono text-xs text-slate-400 bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800 w-fit">
+                            2002 – Present
+                        </div>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm leading-relaxed">
+                        <li>Overriding engineer and product architect for Falcon 1, Falcon 9, Falcon Heavy, and Starship rocket platforms.</li>
+                        <li>Achieved first commercially developed liquid-propellant rocket reaching orbit and first orbital booster landings/reuses.</li>
+                        <li>Deployed Starlink, the world's largest low-Earth orbit satellite constellation providing high-speed global internet.</li>
+                        <li>Restored U.S. human spaceflight capability by executing commercial crew and cargo missions to the ISS for NASA.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 3: xAI -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 relative">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4 border-b border-slate-800 pb-4">
+                        <div>
+                            <h4 class="text-2xl font-bold text-white">Founder & CEO</h4>
+                            <div class="text-sky-400 font-medium">xAI</div>
+                        </div>
+                        <div class="font-mono text-xs text-slate-400 bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800 w-fit">
+                            2023 – Present
+                        </div>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm leading-relaxed">
+                        <li>Established artificial intelligence research company dedicated to building frontier LLMs designed to understand the universe.</li>
+                        <li>Built and deployed the Grok series of generative AI models, integrated with real-time web knowledge systems.</li>
+                        <li>Constructed massive high-density GPU compute infrastructure (Colossus cluster) for rapid frontier AI iteration.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 4: X Corp / Twitter -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 relative">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4 border-b border-slate-800 pb-4">
+                        <div>
+                            <h4 class="text-2xl font-bold text-white">Founder & CTO</h4>
+                            <div class="text-sky-400 font-medium">X Corp. (formerly Twitter)</div>
+                        </div>
+                        <div class="font-mono text-xs text-slate-400 bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800 w-fit">
+                            2022 – Present
+                        </div>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-300 text-sm leading-relaxed">
+                        <li>Acquired platform and spearheaded engineering restructuring to optimize system efficiency and server footprint.</li>
+                        <li>Overhauled monetization, creator subscription programs, and algorithmic recommendation engine transparency.</li>
+                        <li>Transitioned platform infrastructure into an "everything app" with video, voice, creator, and payment capabilities.</li>
+                    </ul>
+                </div>
+
+                <!-- Grid of Other Ventures -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="glass-card rounded-2xl p-6">
+                        <div class="text-sky-400 font-mono text-xs mb-1">2016 – PRESENT</div>
+                        <h4 class="text-xl font-bold text-white mb-2">Co-Founder | Neuralink</h4>
+                        <p class="text-slate-300 text-sm">Developing ultra-high bandwidth brain-machine interfaces to connect human cognition with AI and assist neurological condition treatments.</p>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-6">
+                        <div class="text-sky-400 font-mono text-xs mb-1">2017 – PRESENT</div>
+                        <h4 class="text-xl font-bold text-white mb-2">Founder | The Boring Company</h4>
+                        <p class="text-slate-300 text-sm">Pioneering fast, low-cost tunneling technology and all-electric underground Loop transit systems to relieve urban gridlock.</p>
+                    </div>
+                </div>
+
+                <!-- Historical Ventures -->
+                <div class="glass-card rounded-2xl p-6 bg-slate-900/40">
+                    <h5 class="text-xs font-mono text-slate-400 uppercase tracking-widest mb-3">Historical Venture Milestones</h5>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+                        <div>
+                            <div class="font-bold text-white">OpenAI (2015)</div>
+                            <p class="text-xs text-slate-400">Co-founded non-profit AI research lab to advance safe digital intelligence.</p>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">X.com / PayPal (1999)</div>
+                            <p class="text-xs text-slate-400">Co-founded early online bank & digital payments network; acquired by eBay for $1.5B.</p>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">Zip2 (1995)</div>
+                            <p class="text-xs text-slate-400">Co-founded city guide web software for newspapers; acquired by Compaq for $307M.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 border-t border-slate-800/60 bg-space-900/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mb-16">
+                <h2 class="text-xs font-mono text-sky-400 uppercase tracking-widest mb-2">Core Competencies</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold text-white">Engineering & Business Capabilities</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Technical & Engineering -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800">
+                    <div class="w-10 h-10 rounded-lg bg-sky-500/10 text-sky-400 flex items-center justify-center font-bold mb-4 font-mono">01</div>
+                    <h4 class="text-lg font-bold text-white mb-3">Engineering & Design</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Rocket Propulsion</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Systems Architecture</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Aerodynamics</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">EV Power Systems</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Structural Mechanics</span>
+                    </div>
+                </div>
+
+                <!-- AI & Data -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800">
+                    <div class="w-10 h-10 rounded-lg bg-sky-500/10 text-sky-400 flex items-center justify-center font-bold mb-4 font-mono">02</div>
+                    <h4 class="text-lg font-bold text-white mb-3">AI & Autonomy</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Generative LLMs</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Neural Networks</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Autonomous Driving</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Computer Vision</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">GPU Compute</span>
+                    </div>
+                </div>
+
+                <!-- Leadership & Execution -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800">
+                    <div class="w-10 h-10 rounded-lg bg-sky-500/10 text-sky-400 flex items-center justify-center font-bold mb-4 font-mono">03</div>
+                    <h4 class="text-lg font-bold text-white mb-3">Executive Leadership</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Capital Allocation</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">High-Scale Mfg</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Product Roadmap</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Org Structure</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Global Logistics</span>
+                    </div>
+                </div>
+
+                <!-- Infrastructure & Advanced Tech -->
+                <div class="glass-card rounded-2xl p-6 border border-slate-800">
+                    <div class="w-10 h-10 rounded-lg bg-sky-500/10 text-sky-400 flex items-center justify-center font-bold mb-4 font-mono">04</div>
+                    <h4 class="text-lg font-bold text-white mb-3">Deep Tech Focus</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Neurotechnology</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Orbital Constellations</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Subterranean Transit</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 text-xs font-mono">Solar Ecosystems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 border-t border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mb-16">
+                <h2 class="text-xs font-mono text-sky-400 uppercase tracking-widest mb-2">Flagship Programs</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold text-white">Transformative Innovations</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1: Starship -->
+                <div class="glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-slate-800">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-mono text-sky-400 bg-sky-950 px-2.5 py-1 rounded border border-sky-800/50">SpaceX</span>
+                            <span class="text-xs font-mono text-slate-400">Interplanetary Launch</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-2">Starship Reusable System</h4>
+                        <p class="text-slate-300 text-sm mb-4 leading-relaxed">
+                            Fully reusable super heavy-lift launch vehicle designed to carry crew and cargo to Earth orbit, the Moon, Mars, and beyond. Designed to drastically reduce launch cost through total reusability.
+                        </p>
+                    </div>
+                    <div class="px-6 py-4 border-t border-slate-800 bg-slate-900/40 flex flex-wrap gap-2">
+                        <span class="text-xs font-mono text-slate-400">Raptor Engine</span> •
+                        <span class="text-xs font-mono text-slate-400">Stainless Steel</span> •
+                        <span class="text-xs font-mono text-slate-400">Orbital Refueling</span>
+                    </div>
+                </div>
+
+                <!-- Project 2: Tesla Autopilot -->
+                <div class="glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-slate-800">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-mono text-sky-400 bg-sky-950 px-2.5 py-1 rounded border border-sky-800/50">Tesla</span>
+                            <span class="text-xs font-mono text-slate-400">Autonomous Vehicles</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-2">FSD & Gigafactory Network</h4>
+                        <p class="text-slate-300 text-sm mb-4 leading-relaxed">
+                            Vision-based neural networks powering Full Self-Driving technology, backed by custom-built inference chips and automated global Gigafactory manufacturing plants.
+                        </p>
+                    </div>
+                    <div class="px-6 py-4 border-t border-slate-800 bg-slate-900/40 flex flex-wrap gap-2">
+                        <span class="text-xs font-mono text-slate-400">Vision AI</span> •
+                        <span class="text-xs font-mono text-slate-400">Custom Silicon</span> •
+                        <span class="text-xs font-mono text-slate-400">4680 Cells</span>
+                    </div>
+                </div>
+
+                <!-- Project 3: Starlink -->
+                <div class="glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-slate-800">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-mono text-sky-400 bg-sky-950 px-2.5 py-1 rounded border border-sky-800/50">SpaceX</span>
+                            <span class="text-xs font-mono text-slate-400">Global Broadband</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-2">Starlink Satellite Grid</h4>
+                        <p class="text-slate-300 text-sm mb-4 leading-relaxed">
+                            Low Earth orbit satellite constellation delivering high-speed, low-latency internet globally, providing critical communications access to rural, remote, and maritime locations.
+                        </p>
+                    </div>
+                    <div class="px-6 py-4 border-t border-slate-800 bg-slate-900/40 flex flex-wrap gap-2">
+                        <span class="text-xs font-mono text-slate-400">LEO Satellites</span> •
+                        <span class="text-xs font-mono text-slate-400">Laser Intersat</span> •
+                        <span class="text-xs font-mono text-slate-400">Phased Array</span>
+                    </div>
+                </div>
+
+                <!-- Project 4: Grok -->
+                <div class="glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-slate-800">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-mono text-sky-400 bg-sky-950 px-2.5 py-1 rounded border border-sky-800/50">xAI</span>
+                            <span class="text-xs font-mono text-slate-400">Generative Intelligence</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-2">Grok Frontier AI Models</h4>
+                        <p class="text-slate-300 text-sm mb-4 leading-relaxed">
+                            State-of-the-art large language model architecture focused on rigorous truth-seeking, deep scientific reasoning, and real-time knowledge synthesis.
+                        </p>
+                    </div>
+                    <div class="px-6 py-4 border-t border-slate-800 bg-slate-900/40 flex flex-wrap gap-2">
+                        <span class="text-xs font-mono text-slate-400">LLMs</span> •
+                        <span class="text-xs font-mono text-slate-400">Multi-Modal</span> •
+                        <span class="text-xs font-mono text-slate-400">Colossus Supercluster</span>
+                    </div>
+                </div>
+
+                <!-- Project 5: Neuralink Link -->
+                <div class="glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-slate-800 lg:col-span-2">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-mono text-sky-400 bg-sky-950 px-2.5 py-1 rounded border border-sky-800/50">Neuralink</span>
+                            <span class="text-xs font-mono text-slate-400">Neurotechnology</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-2">Fully Implantable Brain-Computer Interface</h4>
+                        <p class="text-slate-300 text-sm mb-4 leading-relaxed">
+                            Micro-scale thread interface and robotic surgical platform designed to restore autonomy to individuals with neurological conditions and pave the path toward human-AI symbiosis.
+                        </p>
+                    </div>
+                    <div class="px-6 py-4 border-t border-slate-800 bg-slate-900/40 flex flex-wrap gap-2">
+                        <span class="text-xs font-mono text-slate-400">Biocompatible Electronics</span> •
+                        <span class="text-xs font-mono text-slate-400">Surgical Robotics</span> •
+                        <span class="text-xs font-mono text-slate-400">Neural Signal Processing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-24 border-t border-slate-800/60 bg-space-900/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Education -->
+                <div>
+                    <h2 class="text-xs font-mono text-sky-400 uppercase tracking-widest mb-2">Academic Background</h2>
+                    <h3 class="text-3xl font-bold text-white mb-8">Higher Education</h3>
+
+                    <div class="glass-card rounded-2xl p-6 sm:p-8">
+                        <div class="flex items-center justify-between mb-2">
+                            <h4 class="text-xl font-bold text-white">University of Pennsylvania</h4>
+                            <span class="font-mono text-xs text-sky-400 bg-sky-950 px-2 py-1 rounded">1997</span>
+                        </div>
+                        <div class="text-slate-300 font-medium mb-4">Dual Undergraduate Degrees</div>
+                        <ul class="space-y-3 text-sm text-slate-300">
+                            <li class="flex items-start gap-2">
+                                <span class="text-sky-400 font-bold">•</span>
+                                <span><strong>Bachelor of Science (BS) in Economics</strong> — The Wharton School</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-sky-400 font-bold">•</span>
+                                <span><strong>Bachelor of Arts (BA) in Physics</strong> — College of Arts and Sciences</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Fellowships & Awards -->
+                <div>
+                    <h2 class="text-xs font-mono text-sky-400 uppercase tracking-widest mb-2">Honors & Membership</h2>
+                    <h3 class="text-3xl font-bold text-white mb-8">Awards & Fellowships</h3>
+
+                    <div class="space-y-4">
+                        <div class="glass-card rounded-xl p-5 flex items-start gap-4">
+                            <div class="p-2 rounded-lg bg-sky-500/10 text-sky-400 font-mono text-sm font-bold">FRS</div>
+                            <div>
+                                <h4 class="font-bold text-white">Fellow of the Royal Society (FRS)</h4>
+                                <p class="text-xs text-slate-400">Elected 2018 for contributions to spaceflight and sustainable transit.</p>
+                            </div>
+                        </div>
+
+                        <div class="glass-card rounded-xl p-5 flex items-start gap-4">
+                            <div class="p-2 rounded-lg bg-sky-500/10 text-sky-400 font-mono text-sm font-bold">NAE</div>
+                            <div>
+                                <h4 class="font-bold text-white">National Academy of Engineering</h4>
+                                <p class="text-xs text-slate-400">Elected Member 2022 for re-usable launch vehicles and sustainable automotive systems.</p>
+                            </div>
+                        </div>
+
+                        <div class="glass-card rounded-xl p-5 flex items-start gap-4">
+                            <div class="p-2 rounded-lg bg-sky-500/10 text-sky-400 font-mono text-sm font-bold">TIME</div>
+                            <div>
+                                <h4 class="font-bold text-white">Time Person of the Year (2021)</h4>
+                                <p class="text-xs text-slate-400">Recognized for shaping global energy transition and commercial space exploration.</p>
+                            </div>
+                        </div>
+
+                        <div class="glass-card rounded-xl p-5 flex items-start gap-4">
+                            <div class="p-2 rounded-lg bg-sky-500/10 text-sky-400 font-mono text-sm font-bold">AIAA</div>
+                            <div>
+                                <h4 class="font-bold text-white">AIAA George Low Transportation Award & FAI Gold Space Medal</h4>
+                                <p class="text-xs text-slate-400">Aeronautical and astronautical achievements in orbital space flight engineering.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 border-t border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-xs font-mono text-sky-400 uppercase tracking-widest mb-2">Communications</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold text-white mb-6">Executive Channels & Inquiries</h3>
+                <p class="text-slate-300 text-base mb-12 max-w-2xl mx-auto">
+                    For institutional inquiries, executive affairs, or official announcements regarding corporate ventures, connect through verified channels.
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
+                    <a href="https://x.com/elonmusk" target="_blank" rel="noopener" class="glass-card p-6 rounded-2xl hover:scale-105 transition-all duration-200">
+                        <div class="text-sky-400 font-bold mb-1">X / Twitter Platform</div>
+                        <div class="text-xs font-mono text-slate-400">@elonmusk</div>
+                    </a>
+
+                    <a href="#" class="glass-card p-6 rounded-2xl hover:scale-105 transition-all duration-200">
+                        <div class="text-sky-400 font-bold mb-1">The Musk Foundation</div>
+                        <div class="text-xs font-mono text-slate-400">Philanthropic Initiatives</div>
+                    </a>
+
+                    <a href="#" class="glass-card p-6 rounded-2xl hover:scale-105 transition-all duration-200">
+                        <div class="text-sky-400 font-bold mb-1">Corporate Affairs</div>
+                        <div class="text-xs font-mono text-slate-400">Tesla / SpaceX Press Offices</div>
+                    </a>
+                </div>
+
+                <!-- Executive Communication Form Interface -->
+                <div class="glass-card rounded-2xl p-8 border border-slate-800 text-left">
+                    <h4 class="text-lg font-bold text-white mb-4">Official Executive Inquiry</h4>
+                    <form onsubmit="event.preventDefault();" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-mono text-slate-400 mb-1">YOUR NAME / ENTITY</label>
+                                <input type="text" placeholder="Full name or organization" class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-sky-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-mono text-slate-400 mb-1">OFFICIAL EMAIL</label>
+                                <input type="email" placeholder="name@organization.com" class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-sky-500">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-mono text-slate-400 mb-1">SUBJECT / VENTURE FOCUS</label>
+                            <select class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-sky-500">
+                                <option>Aerospace / SpaceX Inquiry</option>
+                                <option>Automotive & Clean Energy / Tesla</option>
+                                <option>Artificial Intelligence / xAI</option>
+                                <option>Neural Systems / Neuralink</option>
+                                <option>General / Executive Inquiry</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-mono text-slate-400 mb-1">COMMUNICATION BRIEF</label>
+                            <textarea rows="4" placeholder="Brief statement regarding official inquiry..." class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-sky-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-semibold shadow-lg hover:shadow-sky-500/25 transition-all duration-200">
+                            Transmit Inquiry
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 border-t border-slate-800/80 bg-space-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="text-xs text-slate-400 font-mono">
+                &copy; Elon Musk. Professional Portfolio.
+            </div>
+            <div class="text-xs text-slate-500">
+                Tesla • SpaceX • xAI • Neuralink • X Corp. • The Boring Company
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
